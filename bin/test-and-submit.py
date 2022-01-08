@@ -10,7 +10,7 @@ postfix = args[1]
 current_path = os.getcwd()
 base_dir="" # fill here!!
 if not (base_dir in current_path):
-    print("[ERROR] Please move to: cd /Users/hiratatomonori/kyopro/@@@")
+    print("[ERROR] Please check current path")
     sys.exit(1)
 
 contest_name = current_path.split("/")[-1]
