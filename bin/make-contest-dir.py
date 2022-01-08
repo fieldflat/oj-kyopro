@@ -5,7 +5,7 @@ import subprocess
 args = sys.argv
 contest_name = args[1]
 base_url = "https://atcoder.jp/contests/{0}/tasks/{1}".format(contest_name, contest_name)
-base_dir = "/Users/hiratatomonori/kyopro"
+base_dir = "" # fill here!!
 postfixes_list = ["a", "b", "c", "d", "e", "f", "g", "h"]
 
 ### コンテストディレクトリを作成 ###

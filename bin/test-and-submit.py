@@ -8,7 +8,8 @@ postfix = args[1]
 
 ### 有効ディレクトリに存在しているかチェック ###
 current_path = os.getcwd()
-if not ("/Users/hiratatomonori/kyopro/" in current_path):
+base_dir="" # fill here!!
+if not (base_dir in current_path):
     print("[ERROR] Please move to: cd /Users/hiratatomonori/kyopro/@@@")
     sys.exit(1)
 
